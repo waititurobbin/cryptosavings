@@ -2,8 +2,8 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 
-def home(request):
+def home_view(request):
     return render(request, 'savings/home.html')
 
-def about(request):
+def about_view(request):
     return render(request, 'savings/about.html')
