@@ -1,26 +1,13 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
+{% extends 'base.html' %}
 
-<head>
-  <meta charset="utf-8">
-  <title>Crypto Savings</title>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,600" rel="stylesheet">
-  <link rel="stylesheet" href="dist/css/style.css">
-  <script src="https://unpkg.com/animejs@3.0.1/lib/anime.min.js"></script>
-  <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
-</head>
-
-<body class="is-boxed has-animations">
+{% block content %}
   <div class="body-wrap">
     <header class="site-header">
       <div class="container">
         <div class="site-header-inner">
           <div class="brand header-brand">
             <h1 class="m-0">
-              <a href="#">
+              <a href="">
                 <img class="header-logo-image" src="dist/images/logo.svg" alt="Logo">
               </a>
             </h1>
@@ -34,9 +21,9 @@
         <div class="container">
           <div class="hero-inner">
             <div class="hero-copy">
-              <h1 class="hero-title mt-0">Landing template for startups</h1>
-              <p class="hero-paragraph">Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.</p>
-              <div class="hero-cta"><a class="button button-primary" href="#">Pre order now</a><a class="button" href="#">Get in touch</a></div>
+              <h1 class="hero-title mt-0">Deposit, Save, Win!</h1>
+              <p class="hero-paragraph">CryptoSavings is a no-loss, audited savings game powered by blockchain technology</p>
+              <div class="hero-cta"><a class="button button-primary" href="#">Join Now!</a></div>
             </div>
             <div class="hero-figure anime-element">
               <svg class="placeholder" width="528" height="396" viewBox="0 0 528 396">
@@ -130,7 +117,7 @@
         <div class="container-sm">
           <div class="pricing-inner section-inner">
             <div class="pricing-header text-center">
-              <h2 class="section-title mt-0">Unlimited for all</h2>
+              <h2 class="section-title mt-0">Win the interest</h2>
               <p class="section-paragraph mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut ad quis nostrud.</p>
             </div>
             <div class="pricing-tables-wrap">
@@ -157,7 +144,7 @@
                     </ul>
                   </div>
                   <div class="pricing-table-cta mb-8">
-                    <a class="button button-primary button-shadow button-block" href="#">Pre order now</a>
+                    <a class="button button-primary button-shadow button-block" href="#">Join Now!</a>
                   </div>
                 </div>
               </div>
@@ -169,7 +156,7 @@
       <section class="cta section">
         <div class="container">
           <div class="cta-inner section-inner">
-            <h3 class="section-title mt-0">Still not convinced on buying?</h3>
+            <h3 class="section-title mt-0">Still not convinced on Joining?</h3>
             <div class="cta-cta">
               <a class="button button-primary button-wide-mobile" href="#">Get in touch</a>
             </div>
@@ -182,7 +169,7 @@
       <div class="container">
         <div class="site-footer-inner">
           <div class="brand footer-brand">
-            <a href="#">
+            <a href="">
               <img class="header-logo-image" src="dist/images/logo.svg" alt="Logo">
             </a>
           </div>
@@ -228,13 +215,11 @@
               </a>
             </li>
           </ul>
-          <div class="footer-copyright">&copy; 2019 Solid, all rights reserved</div>
+          <div class="footer-copyright">&copy; 2020 CryptoSavings, all rights reserved</div>
         </div>
       </div>
     </footer>
   </div>
 
   <script src="dist/js/main.min.js"></script>
-</body>
-
-</html>
+{% endblock %}
