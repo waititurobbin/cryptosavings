@@ -4,7 +4,11 @@
 
 <head>
   <meta charset="utf-8">
+  {% if title %}
+  <title>Crypto Savings - {{ title }}</title>
+  {% else %}
   <title>Crypto Savings</title>
+  {% endif %}
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,20 +18,8 @@
   <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 </head>
 
+{% include 'savings/nav.html' %}
 <body class="is-boxed has-animations">
-  <header class="site-header">
-    <div class="container">
-      <div class="site-header-inner">
-        <div class="brand header-brand">
-          <h1 class="m-0">
-            <a href="">
-              <img class="header-logo-image" src="{% static 'dist/images/logo.svg' %}" alt="Logo">
-            </a>
-          </h1>
-        </div>
-      </div>
-    </div>
-  </header>
   {% if messages %}
   {% for message in messages %}
   <div class="alert alert-{{ message.tags }}">
@@ -35,12 +27,8 @@
   </div>
   {% endfor %}
   {% endif %}
-  {% block content %}
 
-
-
-  {% endblock %}
-
+  {% block content %}{% endblock %}
 </body>
 
 
