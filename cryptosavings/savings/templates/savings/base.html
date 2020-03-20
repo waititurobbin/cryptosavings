@@ -18,7 +18,7 @@
   <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 </head>
 
-{% include 'savings/nav.html' %}
+
 <body class="is-boxed has-animations">
   {% if messages %}
   {% for message in messages %}
@@ -27,7 +27,7 @@
   </div>
   {% endfor %}
   {% endif %}
-
+{% include 'savings/nav.html' %}
   {% block content %}{% endblock %}
 </body>
 
