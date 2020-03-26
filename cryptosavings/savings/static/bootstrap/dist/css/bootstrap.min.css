@@ -301,7 +301,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #292b2c;
+  color: #FFFFFF;
   background-color: #fff
 }
 
@@ -534,7 +534,7 @@ hr {
   margin-top: 1rem;
   margin-bottom: 1rem;
   border: 0;
-  border-top: 1px solid rgba(0, 0, 0, .1)
+  border-top: 1px solid rgba(0, 0, 0, 0)
 }
 
 .small, small {
@@ -656,7 +656,7 @@ kbd {
   padding: .2rem .4rem;
   font-size: 90%;
   color: #fff;
-  background-color: #292b2c;
+  background-color: #FFFFFF;
   border-radius: .2rem
 }
 
@@ -671,7 +671,7 @@ pre {
   margin-top: 0;
   margin-bottom: 1rem;
   font-size: 90%;
-  color: #292b2c
+  color: #FFFFFF
 }
 
 pre code {
@@ -2323,7 +2323,7 @@ pre code {
 
 .thead-inverse th {
   color: #fff;
-  background-color: #292b2c
+  background-color: #FFFFFF
 }
 
 .thead-default th {
@@ -2333,7 +2333,7 @@ pre code {
 
 .table-inverse {
   color: #fff;
-  background-color: #292b2c
+  background-color: #FFFFFF
 }
 
 .table-inverse td, .table-inverse th, .table-inverse thead th {
@@ -2805,13 +2805,13 @@ a.btn.disabled, fieldset[disabled] a.btn {
 }
 
 .btn-secondary {
-  color: #292b2c;
+  color: #FFFFFF;
   background-color: #fff;
   border-color: #ccc
 }
 
 .btn-secondary:hover {
-  color: #292b2c;
+  color: #FFFFFF;
   background-color: #e6e6e6;
   border-color: #adadad
 }
@@ -2827,7 +2827,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
 }
 
 .btn-secondary.active, .btn-secondary:active, .show>.btn-secondary.dropdown-toggle {
-  color: #292b2c;
+  color: #FFFFFF;
   background-color: #e6e6e6;
   background-image: none;
   border-color: #adadad
@@ -3252,7 +3252,7 @@ tbody.collapse.show {
   padding: .5rem 0;
   margin: .125rem 0 0;
   font-size: 1rem;
-  color: #292b2c;
+  color: #FFFFFF;
   text-align: left;
   list-style: none;
   background-color: #fff;
@@ -3275,7 +3275,7 @@ tbody.collapse.show {
   padding: 3px 1.5rem;
   clear: both;
   font-weight: 400;
-  color: #292b2c;
+  color: #FFFFFF;
   text-align: inherit;
   white-space: nowrap;
   background: 0 0;
@@ -5172,7 +5172,7 @@ a.badge:focus, a.badge:hover {
 }
 
 .list-group-item-action .list-group-item-heading {
-  color: #292b2c
+  color: #FFFFFF
 }
 
 .list-group-item-action:focus, .list-group-item-action:hover {
@@ -5182,7 +5182,7 @@ a.badge:focus, a.badge:hover {
 }
 
 .list-group-item-action:active {
-  color: #292b2c;
+  color: #FFFFFF;
   background-color: #eceeef
 }
 
@@ -6132,7 +6132,7 @@ a.bg-danger:focus, a.bg-danger:hover {
 }
 
 .bg-inverse {
-  background-color: #292b2c !important
+  background-color: #FFFFFF !important
 }
 
 a.bg-inverse:focus, a.bg-inverse:hover {
@@ -9746,7 +9746,7 @@ a.text-danger:focus, a.text-danger:hover {
 }
 
 .text-gray-dark {
-  color: #292b2c !important
+  color: #FFFFFF !important
 }
 
 a.text-gray-dark:focus, a.text-gray-dark:hover {

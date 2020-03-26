@@ -6,8 +6,8 @@ html {
 
 .navbar-toggler {
   -webkit-align-self: flex-start;
-      -ms-flex-item-align: start;
-          align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
   padding: 0.25rem 0.75rem;
   font-size: 1.25rem;
   line-height: 1;
@@ -269,7 +269,7 @@ hr {
   border: 0;
   display: block;
   height: 1px;
-  background: #242830;
+  /* background: #242830; */
   margin-top: 24px;
   margin-bottom: 24px
 }
@@ -333,7 +333,7 @@ table {
 }
 
 tr {
-  border-bottom: 1px solid #242830
+  /* border-bottom: 1px solid #242830 */
 }
 
 th {
@@ -358,7 +358,7 @@ html {
 }
 
 body {
-  color: #8A94A7;
+  color: #8A94A7
   font-size: 1rem
 }
 
@@ -378,7 +378,7 @@ a:hover, a:active {
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   clear: both;
-  color: #fff;
+  /* color: #fff; */
   font-weight: 600
 }
 
@@ -505,7 +505,7 @@ dfn, cite, em, i {
 }
 
 blockquote {
-  color: #3B404C;
+  /* color: #3B404C; */
   font-style: italic;
   margin-top: 24px;
   margin-bottom: 24px;
@@ -525,10 +525,10 @@ blockquote p {
 }
 
 address {
-  color: #8A94A7;
+  /* color: #8A94A7; */
   border-width: 1px 0;
   border-style: solid;
-  border-color: #242830;
+  /* border-color: #242830; */
   padding: 24px 0;
   margin: 0 0 24px
 }
@@ -538,7 +538,7 @@ pre, pre h1, pre h2, pre h3, pre h4, pre h5, pre h6, pre .h1, pre .h2, pre .h3, 
 }
 
 pre, code, kbd, tt, var {
-  background: #1D2026
+  /* background: #1D2026 */
 }
 
 pre {
@@ -629,7 +629,7 @@ button, input, select, textarea, label {
   line-height: 16px;
   text-decoration: none;
   text-transform: uppercase;
-  background-color: #1D2026;
+  /* background-color: #1D2026; */
   color: #0270D7 !important;
   border: none;
   height: auto;
@@ -1052,11 +1052,11 @@ button, input, select, textarea, label {
 }
 
 .sr .has-animations .is-revealing {
-  visibility: hidden
+  /* visibility: hidden */
 }
 
 .has-animations .anime-element {
-  visibility: hidden
+  /* visibility: hidden */
 }
 
 .anime-ready .has-animations .anime-element {
@@ -1367,7 +1367,7 @@ button, input, select, textarea, label {
 }
 
 .hero-figure-box-01::before {
-  background: linear-gradient(to left, #15181D 0%, rgba(21, 24, 29, 0) 60%);
+  /* background: linear-gradient(to left, #15181D 0%, rgba(21, 24, 29, 0) 60%); */
   -webkit-transform: rotateZ(45deg) scale(1.5);
   transform: rotateZ(45deg) scale(1.5)
 }
@@ -1720,7 +1720,7 @@ button, input, select, textarea, label {
 
 .cta-inner {
   position: relative;
-  background: #15181D;
+  /* background: #15181D; */
   overflow: hidden
 }
 
@@ -1760,12 +1760,12 @@ button, input, select, textarea, label {
   }
 }
 
-.is-boxed {
+/* .is-boxed {
   background: #242830
-}
+} */
 
 .body-wrap {
-  background: #1D2026;
+  /* background: #1D2026; */
   overflow: hidden;
   display: flex;
   flex-direction: column;
